@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:url("vijywada.png");
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding-top:20px;
+}
+
+header h1{
+    color:lightcyan;
+    font-size:60px;
+    text-shadow:0 0 20px #00aaff;
+}
+
+header h2{
+    font-size:35px;
+}
+
+.login-box{
+    width:400px;
+    margin:40px auto;
+    padding:40px;
+
+    background:rgba(0,0,0,0.5);
+
+    backdrop-filter:blur(15px);
+
+    border:2px solid #00aaff;
+    border-radius:25px;
+
+    box-shadow:0 0 30px orangered;
+}
+
+.logo{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin:12px 0;
+
+    border-radius:12px;
+    border:1px solid #00aaff;
+
+    background:rgba(255,255,255,0.1);
+    color:white;
+}
+
+button{
+    width:100%;
+    padding:15px;
+
+    background:#008cff;
+    color:white;
+
+    border:none;
+    border-radius:12px;
+
+    font-size:22px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0066cc;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 0;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    background:rgba(0,0,0,0.6);
+    padding:15px;
+}
+header p{
+    color:gold;
+    font-size:20px;
+    text-shadow:0 0 20px #00aaff;
+}
+.toggle-password{
+    position: absolute;
+    right: 15px;
+    top:50%;
+    transform: translate(-50%);
+    color: #00d9ff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.toggle-password:hover{
+    color: ffffff;
+    text-shadow: 0 0 10px #00d9ff;
+}
+
+.logo img{
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+    object-fit:cover;
+    clip-path: circle(50%);
+    background: transparent;
+    transform: scale(1.15);
+    object-position: center 25%;
+}
